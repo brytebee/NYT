@@ -1,3 +1,15 @@
 body {
   background-color: rgb(248, 244, 248);
-}
+  font-size: larger;
+   }
+  section
+  {
+    width:80%;
+   }
+  p
+  {margin-left: 400px;}
+h1,h2
+{text-align: center;}
+.fig
+{display: block;
+  margin:0 25%;}
