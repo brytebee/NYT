@@ -1,15 +1,87 @@
 body {
   background-color: rgb(248, 244, 248);
   font-size: larger;
-   }
-  section
-  {
-    width:80%;
-   }
-  p
-  {margin-left: 400px;}
-h1,h2
-{text-align: center;}
-.fig
-{display: block;
-  margin:0 25%;}
+  margin: 1% 7%;
+  text-align: center;
+}
+
+.fig {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.8em;
+  opacity: 0.7;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.fab, .fas, .far {
+  padding: 8px;
+}
+
+.top-header {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: oblique;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+h2 {
+  margin: 2% 20%;
+  text-align: left;
+}
+
+.main-top {
+  padding-top: 80px;
+  margin: 0 20%;
+  text-align: left;
+}
+
+.top-hr {
+  opacity: 0.3;
+}
+
+p {
+  margin: 0 20%;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.iframe-caption {
+  text-align: left;
+  margin-left: 20%;
+}
+
+.navbar {
+  display: flex;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.link1:hover {
+  text-decoration: underline;
+}
+
+.linked-button {
+  background-color: #326891;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  padding-top: 3px;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+  font-family: Algerian;
+}
