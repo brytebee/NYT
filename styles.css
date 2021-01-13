@@ -153,3 +153,61 @@ footer {
 .editor-text:hover {
   text-decoration: underline;
 }
+
+.author-name {
+  text-align: left;
+  font-weight: bold;
+  margin-top: -20px; 
+  padding-bottom: 0; 
+}
+
+.date {
+  text-align: left;
+  font-weight: lighter;
+  list-style: none;
+  margin-left: 12%;
+  font-size: 0.8em;
+}
+
+.section-break {
+  text-align: center;
+  margin:0 30%;
+  font-size: 0.8em;
+  }
+
+.section-break-link {
+    text-decoration: none;
+  color:blue;
+ }
+
+
+.section-break-line {
+  width: 80px;
+  opacity: 0.8;
+}
+
+.section-break-link:hover {
+  text-decoration: underline;
+ }
+
+.section-ul {
+  list-style-type: none;
+}
+
+.last-caption {
+  margin: 0 28% 0 15%;
+  text-align: left;
+  line-height: 1.1rem;
+  padding: 10px 0;
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+
+.last-caption-links {
+  text-decoration: none;
+}
+
+.last-caption-links:hover {
+  text-decoration: underline;
+  color:blue;
+}
