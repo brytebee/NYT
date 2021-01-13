@@ -233,3 +233,33 @@ footer {
 .inflation-caption {
   margin-bottom: 5px;
 }
+
+.inflation-class {
+  position:relative;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 0.7rem;
+  padding:2% 5% 0 1%;
+  position: absolute;
+  top:13rem;
+ }
+
+ .text-flex {
+   padding:20px;
+ }
+
+ .flex-container2 {
+  display:flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 0.7rem;
+  padding:2% 5% 0 1%;
+  position: absolute;
+  top:32rem;
+ }
+
+ 
