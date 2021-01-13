@@ -29,12 +29,17 @@ figcaption {
 }
 
 h2 {
-  margin: 2% 20%;
+  margin: 2% 15%;
   text-align: left;
 }
 
 h3 {
   font-size: 0.9em;
+}
+
+h4 {
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .main-top {
@@ -54,9 +59,13 @@ p {
   padding: 10px 0;
 }
 
+iframe {
+  margin-left: -5rem;
+}
+
 .iframe-caption {
   text-align: left;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 .navbar {
@@ -107,8 +116,12 @@ footer {
   display: block;
   font-size: 14px;
   font-weight: 500;
+  padding-bottom: 0.3rem;
 }
 
+.footer-link:hover {
+  text-decoration: underline;
+}
 .footer-header {
   font-size: 13px;
   font-weight: 700;
@@ -157,8 +170,8 @@ footer {
 .author-name {
   text-align: left;
   font-weight: bold;
-  margin-top: -20px; 
-  padding-bottom: 0; 
+  margin-top: -20px;
+  padding-bottom: 0;
 }
 
 .date {
@@ -194,6 +207,15 @@ footer {
   list-style-type: none;
 }
 
+.telescope-fig {
+  width: 60%;
+  margin-left: -9rem;
+}
+
+.telescope-caption {
+  margin: 0 27% 0 12%;
+}
+
 .last-caption {
   margin: 0 28% 0 15%;
   text-align: left;
@@ -203,11 +225,11 @@ footer {
   opacity: 0.6;
 }
 
-.last-caption-links {
+.last-caption-links:hover {
   text-decoration: none;
+  color:blue;
 }
 
-.last-caption-links:hover {
-  text-decoration: underline;
-  color:blue;
+.inflation-caption {
+  margin-bottom: 5px;
 }
