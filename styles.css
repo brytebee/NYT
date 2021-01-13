@@ -33,6 +33,10 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  font-size: 0.9em;
+}
+
 .main-top {
   padding-top: 80px;
   margin: 0 20%;
@@ -44,7 +48,7 @@ h2 {
 }
 
 p {
-  margin: 0 20%;
+  margin: 0 28% 0 15%;
   text-align: left;
   line-height: 2rem;
   padding: 10px 0;
@@ -118,15 +122,34 @@ footer {
   opacity:0.4;
 }
 
-  .editors {
-    float:right;
-     width:20px;
-     height:auto;
-    margin-left: -20px;
-  
-  }   
+.editors {
+  float:right;
+  width: 220px;
+  height:auto;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
 
-  .haris-article {
-    display:flex;
-    flex-direction: row;
-  }
+.article {
+  display: flex;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.article-image {
+  width: 70px;
+  height: 70px;
+}
+
+.editor-text {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.editor-text:hover {
+  text-decoration: underline;
+}
