@@ -109,3 +109,24 @@ footer {
   font-size: 13px;
   font-weight: 700;
 }
+
+.vertical-line {
+  border-left: 2px solid black;
+  height:300px;
+  padding-left:1.5rem;
+  padding-top: 0;
+  opacity:0.4;
+}
+
+  .editors {
+    float:right;
+     width:20px;
+     height:auto;
+    margin-left: -20px;
+  
+  }   
+
+  .haris-article {
+    display:flex;
+    flex-direction: row;
+  }
