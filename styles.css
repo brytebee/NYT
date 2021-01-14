@@ -75,7 +75,7 @@ iframe {
 }
 
 header {
-  background-color: #e5ddd5;
+  background-color: white;
   height: 50px;
   position: fixed;
   width: 100%;
@@ -113,6 +113,11 @@ header {
   margin-top: 7px;
 }
 
+.header-underline {
+margin-top:30px;
+opacity: 0.5;
+}
+
 .title {
   text-decoration: none;
   font-size: 1.5rem;
@@ -134,6 +139,7 @@ footer {
 .footer-content {
   display:flex;
   justify-content: space-between;
+  line-height: 20px;
 }
 
 .footer-link {
@@ -150,14 +156,11 @@ footer {
   font-size: 13px;
   font-weight: 700;
 }
-
 .vertical-line {
-  border-left: 2px solid black;
-  height:300px;
-  padding-left:1.5rem;
-  padding-top: 0;
-  opacity:0.4;
-}
+  opacity: 0.5;
+  margin-right: -120px;
+  height:390px;
+ } 
 
 .editors {
   float:right;
@@ -271,7 +274,8 @@ footer {
   font-size: 0.7rem;
   padding:2% 5% 0 1%;
   position: absolute;
-  top:182px;
+  margin-right: -80px;
+  top:12.9rem;
  }
 
  .text-flex {
@@ -285,12 +289,24 @@ footer {
   font-size: 0.7rem;
   padding:2% 5% 0 1%;
   position: absolute;
-  top:475px;
+  margin-right: -80px;
+  top:34rem;
  }
 
  .logo {
    width: 200px;
  }
+
+ .footer-logo {
+   display:flex;
+   justify-content: space-between;
+   font-size: 0.8rem;
+   padding-bottom:20px;
+ }
+
+ .footer-logo a {
+ text-decoration: none;
+}
 
  .bottom-button {
    display: flex;
@@ -302,6 +318,18 @@ footer {
    margin-top: 15px;
  }
 
+ .bigger-text {
+   font-size:1rem;
+ }
+
+.last-footer-section {
+  line-height:1.6 ;
+}
+
+.last-footer-section-hr {
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
  .copyright {
    display: flex;
    font-size: 0.8em;
