@@ -44,6 +44,15 @@ h3 {
   text-align: left;
 }
 
+.owner {
+  width: 90%;
+}
+
+.owner-caption {
+  margin: 1% 25.5% 3% 5%;
+  line-height: 1.8;
+}
+
 .editor-hr {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -72,7 +81,9 @@ p {
 }
 
 iframe {
-  margin-left: -5rem;
+  width: 56.5%;
+  margin-left: -8.2rem;
+  padding-top: 5%;
 }
 
 .iframe-caption {
@@ -211,7 +222,7 @@ footer {
   text-align: left;
   font-weight: lighter;
   list-style: none;
-  margin-left: 12%;
+  margin-left: 15%;
   font-size: 0.8em;
 }
 
@@ -243,12 +254,12 @@ footer {
 }
 
 .telescope-fig {
-  width: 60%;
+  width: 57%;
   margin-left: -9rem;
 }
 
 .telescope-caption {
-  margin: 0 27% 0 12%;
+  margin: 0 28% 0 15%;
 }
 
 .last-caption {
