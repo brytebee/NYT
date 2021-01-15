@@ -8,7 +8,7 @@ main {
   font-size: medium;
   margin: 1% 7%;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow: hidden;
 }
 
@@ -23,12 +23,14 @@ figcaption {
   margin-bottom: 5%;
 }
 
-.fab, .fas, .far {
+.fab,
+.fas,
+.far {
   padding: 8px;
 }
 
 .top-header {
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: oblique;
   font-size: 1.8rem;
   line-height: 3rem;
@@ -56,7 +58,7 @@ h3 {
 .editor-hr {
   margin-top: 5px;
   margin-bottom: 10px;
-  opacity:0.4;
+  opacity: 0.4;
 }
 h4 {
   text-align: left;
@@ -99,7 +101,7 @@ header {
   width: 100%;
   z-index: 1;
   margin-top: -18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -135,22 +137,22 @@ header {
 }
 
 .header-underline {
-margin-top:30px;
-opacity: 0.5;
+  margin-top: 30px;
+  opacity: 0.5;
 }
 
 .title {
   text-decoration: none;
   font-size: 1.5rem;
   color: #000;
-  font-family: 'ChomskyRegular';
+  font-family: "ChomskyRegular";
   font-weight: normal;
-   font-style: normal;
+  font-style: normal;
 }
 
 footer {
-    text-align: left;
-    margin: 1.5%;
+  text-align: left;
+  margin: 1.5%;
 }
 
 .footer-hr {
@@ -158,7 +160,7 @@ footer {
 }
 
 .footer-content {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   line-height: 20px;
 }
@@ -180,13 +182,13 @@ footer {
 .vertical-line {
   opacity: 0.5;
   margin-right: -7.5rem;
-  height:24.4rem;
- }
+  height: 24.4rem;
+}
 
 .editors {
-  float:right;
+  float: right;
   width: 220px;
-  height:auto;
+  height: auto;
   margin-left: -20px;
   display: flex;
   flex-direction: column;
@@ -233,13 +235,12 @@ footer {
 .section-break {
   text-align: center;
   font-size: 0.8em;
-  }
+}
 
 .section-break-link {
   text-decoration: none;
-  color:blue;
- }
-
+  color: blue;
+}
 
 .section-break-line {
   width: 80px;
@@ -249,7 +250,7 @@ footer {
 
 .section-break-link:hover {
   text-decoration: underline;
- }
+}
 
 .section-ul {
   list-style-type: none;
@@ -277,7 +278,7 @@ footer {
 
 .last-caption-links:hover {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
 
 .inflation-caption {
@@ -285,83 +286,83 @@ footer {
 }
 
 .inflation-class {
-  position:relative;
+  position: relative;
 }
 
 .flex-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   text-align: left;
   font-size: 0.7rem;
-  padding:2% 5% 0 1%;
+  padding: 2% 5% 0 1%;
   position: absolute;
   margin-right: -80px;
-  top:12.9rem;
- }
-
- .text-flex {
-   padding:20px;
- }
-
- .flex-container2 {
-  display:flex;
-  flex-direction: row;
-  text-align: left;
-  font-size: 0.7rem;
-  padding:2% 5% 0 1%;
-  position: absolute;
-  margin-right: -80px;
-  top:34rem;
- }
-
- .logo {
-   width: 200px;
- }
-
- .footer-logo {
-   display:flex;
-   justify-content: space-between;
-   font-size: 0.8rem;
-   padding-bottom:20px;
- }
-
- .footer-logo a {
- text-decoration: none;
+  top: 12.9rem;
 }
 
- .bottom-button {
-   display: flex;
-   justify-content: space-between;
-   padding: 0 28% 0 15%;
- }
+.text-flex {
+  padding: 20px;
+}
 
- .bottom-icon {
-   margin-top: 15px;
- }
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 0.7rem;
+  padding: 2% 5% 0 1%;
+  position: absolute;
+  margin-right: -80px;
+  top: 34rem;
+}
 
- .bigger-text {
-   font-size:1rem;
- }
+.logo {
+  width: 200px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+.footer-logo a {
+  text-decoration: none;
+}
+
+.bottom-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 28% 0 15%;
+}
+
+.bottom-icon {
+  margin-top: 15px;
+}
+
+.bigger-text {
+  font-size: 1rem;
+}
 
 .last-footer-section {
-  line-height:1.6 ;
+  line-height: 1.6;
 }
 
 .last-footer-section-hr {
   margin-bottom: 15px;
   opacity: 0.8;
 }
- .copyright {
-   display: flex;
-   font-size: 0.8em;
-   justify-content: space-between;
-   padding: 0 7%;
- }
+.copyright {
+  display: flex;
+  font-size: 0.8em;
+  justify-content: space-between;
+  padding: 0 7%;
+}
 
- .copyright-link {
-   text-decoration: none;
- }
+.copyright-link {
+  text-decoration: none;
+}
 
- .copyright-link:hover {
-   text-decoration: underline;
- }
+.copyright-link:hover {
+  text-decoration: underline;
+}
