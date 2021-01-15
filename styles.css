@@ -84,6 +84,7 @@ iframe {
   width: 56.5%;
   margin-left: -8.2rem;
   padding-top: 5%;
+  border: none;
 }
 
 .iframe-caption {
