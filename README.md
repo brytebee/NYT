@@ -13,7 +13,7 @@ This project is about building a page similar to the homepage of THE NEW YORK TI
 ## Sceenshoot
 
 Current version as commit date
-![alt text]()
+![alt text](https://github.com/brytebee/NYT/blob/feature-branch/NYT.jpeg)
 
 ## Live Demo
 
