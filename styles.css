@@ -23,9 +23,7 @@ figcaption {
   margin-bottom: 5%;
 }
 
-.fab,
-.fas,
-.far {
+.fab, .fas, .far {
   padding: 8px;
 }
 
@@ -60,6 +58,7 @@ h3 {
   margin-bottom: 10px;
   opacity: 0.4;
 }
+
 h4 {
   text-align: left;
   margin-bottom: 0;
@@ -175,10 +174,12 @@ footer {
 .footer-link:hover {
   text-decoration: underline;
 }
+
 .footer-header {
   font-size: 13px;
   font-weight: 700;
 }
+
 .vertical-line {
   opacity: 0.5;
   margin-right: -7.5rem;
@@ -352,6 +353,7 @@ footer {
   margin-bottom: 15px;
   opacity: 0.8;
 }
+
 .copyright {
   display: flex;
   font-size: 0.8em;
