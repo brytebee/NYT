@@ -170,14 +170,6 @@ footer {
   padding-bottom: 0.3rem;
 }
 
-.editor-text:hover,
-.section-break-link:hover,
-.footer-link:hover,
-.link1:hover,
-.copyright-link:hover {
-  text-decoration: underline;
-}
-
 .footer-header {
   font-size: 13px;
   font-weight: 700;
@@ -215,6 +207,14 @@ footer {
   color: black;
   padding-left: 10px;
   text-align: left;
+}
+
+.editor-text:hover,
+.section-break-link:hover,
+.footer-link:hover,
+.link1:hover,
+.copyright-link:hover {
+  text-decoration: underline;
 }
 
 .author-name {
