@@ -209,6 +209,12 @@ footer {
   text-align: left;
 }
 
+.section-break-link,
+.last-caption-links:hover {
+  text-decoration: none;
+  color: blue;
+}
+
 .editor-text:hover,
 .section-break-link:hover,
 .footer-link:hover,
@@ -235,12 +241,6 @@ footer {
 .section-break {
   text-align: center;
   font-size: 0.8em;
-}
-
-.section-break-link,
-.last-caption-links:hover {
-  text-decoration: none;
-  color: blue;
 }
 
 .section-break-line {
