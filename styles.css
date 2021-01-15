@@ -23,7 +23,9 @@ figcaption {
   margin-bottom: 5%;
 }
 
-.fab, .fas, .far {
+.fab,
+.fas,
+.far {
   padding: 8px;
 }
 
@@ -144,7 +146,7 @@ header {
   text-decoration: none;
   font-size: 1.5rem;
   color: #000;
-  font-family: "ChomskyRegular";
+  font-family: "ChomskyRegular, sans-serif";
   font-weight: normal;
   font-style: normal;
 }
