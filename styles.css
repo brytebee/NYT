@@ -369,3 +369,29 @@ footer {
 .copyright-link:hover {
   text-decoration: underline;
 }
+
+/* comment form styles */
+
+#comment-form {
+  border: 2px solid green;
+  width:500px;
+  margin-left:300px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: beige;
+  }
+
+.comment-content {
+  line-height: 30px; 
+  padding-left: 30px;
+}
+
+.form-p {
+  text-align: center;
+}
+
+#underline-comment {
+  width:300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
