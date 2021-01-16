@@ -351,3 +351,53 @@ footer {
   justify-content: space-between;
   padding: 0 7%;
 }
+
+form {
+  display: grid;
+  margin: 1% 35% 1% 22%;
+  background-color: #cfd3da8c;
+  border-radius: 5px;
+  padding: 2%;
+  text-align: center;
+}
+
+.form-header {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.round-corners {
+  border-radius: 5%;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-hr {
+  margin: 3% 0;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+  border-color: #326891;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.send-button {
+  margin: 3% 20%;
+  border-radius: 5px;
+  padding: 2% 0;
+  background-color: #326891;
+  color: white;
+}
+
+.comment-btn {
+  font-size: 1rem;
+}
