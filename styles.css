@@ -113,12 +113,6 @@ header {
   justify-content: space-between;
 }
 
-.nav-link,
-.copyright-link,
-.footer-logo a {
-  text-decoration: none;
-}
-
 .linked-button {
   background-color: #326891;
   color: white;
@@ -213,6 +207,12 @@ footer {
 .last-caption-links:hover {
   text-decoration: none;
   color: blue;
+}
+
+.nav-link,
+.copyright-link,
+.footer-logo a {
+  text-decoration: none;
 }
 
 .editor-text:hover,
@@ -350,10 +350,6 @@ footer {
   font-size: 0.8em;
   justify-content: space-between;
   padding: 0 7%;
-}
-
-.copyright-link {
-  text-decoration: none;
 }
 
 .copyright-link:hover {
