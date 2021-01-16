@@ -362,12 +362,12 @@ footer {
   padding: 0 7%;
 }
 
-.copyright-link:hover {
-  text-decoration: underline;
-}
-
 .copyright-link {
   text-decoration: none;
+}
+
+.copyright-link:hover {
+  text-decoration: underline;
 }
 
 /* comment form styles */
