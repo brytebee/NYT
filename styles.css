@@ -113,12 +113,10 @@ header {
   justify-content: space-between;
 }
 
-.nav-link {
+.nav-link,
+.copyright-link,
+.footer-logo a {
   text-decoration: none;
-}
-
-.link1:hover {
-  text-decoration: underline;
 }
 
 .linked-button {
@@ -172,10 +170,6 @@ footer {
   padding-bottom: 0.3rem;
 }
 
-.footer-link:hover {
-  text-decoration: underline;
-}
-
 .footer-header {
   font-size: 13px;
   font-weight: 700;
@@ -215,7 +209,17 @@ footer {
   text-align: left;
 }
 
-.editor-text:hover {
+.section-break-link,
+.last-caption-links:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.editor-text:hover,
+.section-break-link:hover,
+.footer-link:hover,
+.link1:hover,
+.copyright-link:hover {
   text-decoration: underline;
 }
 
@@ -239,19 +243,10 @@ footer {
   font-size: 0.8em;
 }
 
-.section-break-link {
-  text-decoration: none;
-  color: blue;
-}
-
 .section-break-line {
   width: 80px;
   opacity: 0.8;
   margin: 30px 37%;
-}
-
-.section-break-link:hover {
-  text-decoration: underline;
 }
 
 .section-ul {
@@ -276,11 +271,6 @@ footer {
   padding: 10px 0;
   font-size: 0.7rem;
   opacity: 0.6;
-}
-
-.last-caption-links:hover {
-  text-decoration: none;
-  color: blue;
 }
 
 .inflation-caption {
@@ -413,3 +403,4 @@ footer {
   background-color: blueviolet;
   cursor: pointer;
 }
+
