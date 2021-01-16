@@ -1,24 +1,28 @@
-# NYT
-
 #Microverse
 
-# Project:
+# THE NEW YORK TIMES
+***
+This project is about building a page similar to the homepage of THE NEW YORK TIMES
 
-The New York Times article page clone.
+## Built with:
 
-# Built With
-HTML5 semantic tags,
+* HTML5 semantic tags,
 
-CSS3
+* CSS3
 
-# Sceenshoot
-https://github.com/brytebee/NYT/blob/feature-branch/NYT%20screenshoot.JPG
+## Sceenshoot
 
+Current version as commit date
+![alt text](https://github.com/brytebee/NYT/blob/feature-branch/NYT.jpeg)
 
-# Live link: 
+## Live Demo
+
 https://brytebee.github.io/NYT/
 
-# Authors
+## Installation
+All the code required to get started
+
+## Authors
 
 👤 Author 1
 
