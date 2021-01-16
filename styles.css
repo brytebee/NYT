@@ -113,12 +113,6 @@ header {
   justify-content: space-between;
 }
 
-.nav-link,
-.copyright-link,
-.footer-logo a {
-  text-decoration: none;
-}
-
 .linked-button {
   background-color: #326891;
   color: white;
@@ -213,6 +207,12 @@ footer {
 .last-caption-links:hover {
   text-decoration: none;
   color: blue;
+}
+
+.nav-link,
+.copyright-link,
+.footer-logo a {
+  text-decoration: none;
 }
 
 .editor-text:hover,
@@ -350,4 +350,52 @@ footer {
   font-size: 0.8em;
   justify-content: space-between;
   padding: 0 7%;
+}
+
+.copyright-link:hover {
+  text-decoration: underline;
+}
+
+/* comment form styles */
+
+#comment-form {
+  border: 2px solid rgb(144, 146, 144);
+  width: 500px;
+  margin-left: 234px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: beige;
+}
+
+.comment-content {
+  line-height: 30px;
+  padding-left: 30px;
+}
+
+.form-p {
+  text-align: center;
+  color: blueviolet;
+}
+
+#underline-comment {
+  width: 300px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.form-p2 {
+  font-size: 13px;
+  color: green;
+  font-style: italic;
+}
+
+.form-submit {
+  font-size: 18px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.form-submit:hover {
+  background-color: blueviolet;
+  cursor: pointer;
 }
